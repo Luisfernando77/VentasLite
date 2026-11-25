@@ -34,6 +34,7 @@ function Dashboard() {
   const [ventasMensuales, setVentasMensuales] = useState([]);
   const [productosTop, setProductosTop] = useState([]);
 
+
   const navigate = useNavigate();
 
   const usuario = JSON.parse(localStorage.getItem("user") || "{}");
